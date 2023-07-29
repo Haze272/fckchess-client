@@ -14,7 +14,7 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
-  background-color: var(--main-yellow);
+  background-color: wheat;
 
   min-height: 100vh;
   scroll-behavior: smooth;
@@ -61,7 +61,7 @@ ol[class] {
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
 a {
   text-decoration: none;
-  color: var(--main-text-dark);
+  color: black;
   cursor: pointer;
 }
 
@@ -105,49 +105,30 @@ section {
 
 
 h1 {
-  color: var(--main-red);
+  color: black;
   font-weight: 800;
-  @include adaptiv-font(48, 36);
 }
 
 h2 {
-  color: var(--main-red);
-  @include adaptiv-font(42, 32);
+  color: black;
   font-weight: 700;
 }
 
 h3 {
-  color: var(--main-text-dark);
-  @include adaptiv-font(42, 24);
+  color: black;
   font-weight: 800;
 }
 
 h4 {
-  color: var(--main-text-dark);
-  @include adaptiv-font(32, 22);
+  color: black;
 }
 
 p {
-  @include adaptiv-font(21, 16);
-  color: var(--main-text-dark);
+  color: black;
 }
 
 span {
-  @include adaptiv-font(21, 16);
-  color: var(--main-text-dark);
-
-  &.accent-red {
-    font-size: inherit;
-    color: var(--main-red);
-  }
-  &.accent-yellow {
-    font-size: inherit;
-    color: var(--main-yellow);
-  }
-  &.accent-white {
-    font-size: inherit;
-    color: var(--main-text-dark);
-  }
+  color: black;
 }
 
 input,
