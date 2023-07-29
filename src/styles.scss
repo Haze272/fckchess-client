@@ -1,12 +1,14 @@
 :root {
   --main-color: #A95EB9;
-  --secondary-color: #A95EB9;
-  --main-accent: #A95EB9;
+  --secondary-color: #680BAB;
+  --main-accent: #D30068;
+
+  --main-text: #f1f1f1;
 }
 
 ::selection {
   color: white;
-  background-color: var(--main-blue);
+  background-color: var(--main-accent);
 }
 
 html, body { height: 100%; }
@@ -14,7 +16,7 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
-  background-color: wheat;
+  background: linear-gradient(135deg, #6D317C 0%, #290B4F 100%);
 
   min-height: 100vh;
   scroll-behavior: smooth;
@@ -61,7 +63,7 @@ ol[class] {
 /* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
 a {
   text-decoration: none;
-  color: black;
+  color: var(--main-text);
   cursor: pointer;
 }
 
@@ -105,30 +107,30 @@ section {
 
 
 h1 {
-  color: black;
+  color: var(--main-text);
   font-weight: 800;
 }
 
 h2 {
-  color: black;
+  color: var(--main-text);
   font-weight: 700;
 }
 
 h3 {
-  color: black;
+  color: var(--main-text);
   font-weight: 800;
 }
 
 h4 {
-  color: black;
+  color: var(--main-text);
 }
 
 p {
-  color: black;
+  color: var(--main-text);
 }
 
 span {
-  color: black;
+  color: var(--main-text);
 }
 
 input,
