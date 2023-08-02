@@ -1,13 +1,4 @@
-@mixin board-width() {
-  @if (calc(90vh - 0px) < calc(90vw - 0px)) {
-    width: 90vh;
-    height: 90vh;
-  }
-  @else {
-    width: 90vw;
-    height: 90vw;
-  }
-}
+
 
 .board {
   display: grid;
