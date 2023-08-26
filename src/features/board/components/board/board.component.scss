@@ -1,21 +1,9 @@
-
-
 .board {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-template-rows: repeat(8, 1fr);
-  @include board-width();
-  background-color: #edd8ca;
+  display: flex;
+  flex-direction: column;
 
-  &__cell:nth-child(-2n+8),
-  &__cell:nth-child(8) ~ &__cell:nth-child(-2n+15),
-  &__cell:nth-child(16) ~ &__cell:nth-child(-2n+24),
-  &__cell:nth-child(24) ~ &__cell:nth-child(-2n+31),
-  &__cell:nth-child(32) ~ &__cell:nth-child(-2n+40),
-  &__cell:nth-child(40) ~ &__cell:nth-child(-2n+47),
-  &__cell:nth-child(48) ~ &__cell:nth-child(-2n+56),
-  &__cell:nth-child(56) ~ &__cell:nth-child(-2n+63) {
-    background-color: #062802;
+  &__row {
+    display: flex;
   }
 }
 
