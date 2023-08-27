@@ -13,8 +13,10 @@ export class BoardService {
   }
 
   getSchema(): Observable<BoardSchemaModel> {
+    // const schemaUrl: string = './assets/classicChessboard.json';
+    const schemaUrl: string = './assets/fourPlayersChessboard.json';
 
-    return this.httpClient.get<BoardSchemaModel>('./assets/classicChessboard.json')
+    return this.httpClient.get<BoardSchemaModel>(schemaUrl)
       .pipe<BoardSchemaModel>(
         map(x => {
           x.board = x.board.map(row => {
@@ -26,10 +28,10 @@ export class BoardService {
                   resultColor = 'rgba(0,0,0,0)'
                   break;
                 case "b":
-                  resultColor = 'rgb(27,72,0)'
+                  resultColor = 'rgb(118,150,86)'
                   break;
                 case "w":
-                  resultColor = 'rgb(255,255,255)'
+                  resultColor = 'rgb(238,238,210)'
                   break;
                 default:
                   resultColor = '#121211'
@@ -38,7 +40,7 @@ export class BoardService {
               return resultColor;
             }) as [];
           })
-          
+
           return x;
         })
       )
