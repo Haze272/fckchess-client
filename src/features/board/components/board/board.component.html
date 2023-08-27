@@ -1,6 +1,10 @@
 <div class="board" *ngIf="schema$">
   <div *ngFor="let row of (schema$ | async)?.board" class="board__row">
-    <app-square *ngFor="let square of row" [color]="square"></app-square>
+    <app-square
+      *ngFor="let square of row"
+      [color]="square"
+      style="width: 100%"
+    ></app-square>
   </div>
 </div>
 
