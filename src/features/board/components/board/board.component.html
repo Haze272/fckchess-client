@@ -2,7 +2,7 @@
   <div *ngFor="let row of (schema$ | async)?.board" class="board__row">
     <app-square
       *ngFor="let square of row"
-      [color]="square"
+      [color]="square.color"
       style="width: 100%"
     ></app-square>
   </div>

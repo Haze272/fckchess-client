@@ -1,12 +1,276 @@
 {
   "board": [
-    ["b", "w", "b", "w", "b", "w", "b", "w"],
-    ["w", "b", "w", "b", "w", "b", "w", "b"],
-    ["b", "w", "b", "w", "b", "w", "b", "w"],
-    ["w", "b", "w", "b", "w", "b", "w", "b"],
-    ["b", "w", "b", "w", "b", "w", "b", "w"],
-    ["w", "b", "w", "b", "w", "b", "w", "b"],
-    ["b", "w", "b", "w", "b", "w", "b", "w"],
-    ["w", "b", "w", "b", "w", "b", "w", "b"]
+    [
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      }
+    ],
+    [
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      }
+    ],
+    [
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      }
+    ],
+    [
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      }
+    ],
+    [
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      }
+    ],
+    [
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      }
+    ],
+    [
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      }
+    ],
+    [
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": "rook"
+      }
+    ]
   ]
 }

@@ -8,36 +8,33 @@ import {map, Observable} from "rxjs";
 })
 export class BoardService {
 
-  constructor(private httpClient: HttpClient) {
-
-  }
+  constructor(private httpClient: HttpClient) {}
 
   getSchema(): Observable<BoardSchemaModel> {
-    // const schemaUrl: string = './assets/classicChessboard.json';
-    const schemaUrl: string = './assets/fourPlayersChessboard.json';
+    const schemaUrl: string = './assets/classicChessboard.json';
+    // const schemaUrl: string = './assets/fourPlayersChessboard.json';
 
     return this.httpClient.get<BoardSchemaModel>(schemaUrl)
       .pipe<BoardSchemaModel>(
         map(x => {
           x.board = x.board.map(row => {
-             return row.map((square) => {
-              let resultColor: string = '';
+            return row.map((square) => {
 
-              switch (square) {
+              switch (square.color) {
                 case "x":
-                  resultColor = 'rgba(0,0,0,0)'
+                  square.color = 'rgba(0,0,0,0)'
                   break;
                 case "b":
-                  resultColor = 'rgb(118,150,86)'
+                  square.color = 'rgb(118,150,86)'
                   break;
                 case "w":
-                  resultColor = 'rgb(238,238,210)'
+                  square.color = 'rgb(238,238,210)'
                   break;
                 default:
-                  resultColor = '#121211'
+                  square.color = '#121211'
                   break;
               }
-              return resultColor;
+              return square;
             }) as [];
           })
 
