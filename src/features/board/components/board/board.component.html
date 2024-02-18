@@ -1,8 +1,11 @@
 <div class="board" *ngIf="schema$">
-  <div *ngFor="let row of (schema$ | async)?.board" class="board__row">
+  <div *ngFor="let row of (schema$ | async)?.board; let x = index" class="board__row">
     <app-square
-      *ngFor="let square of row"
+      *ngFor="let square of row; let y = index"
       [color]="square.color"
+      [piece]="square.piece"
+      [selected]="isSelected(x, y)"
+      (onSelected)="selectItem(x, y)"
       style="width: 100%"
     ></app-square>
   </div>

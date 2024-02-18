@@ -1,2 +1,9 @@
-<div class="square" [style]="{backgroundColor: color}">
+<div
+  class="square"
+  [style]="{backgroundColor: color}"
+  (click)="select()"
+>
+  <div class="square__state" [style]="{backgroundColor: getStateColor()}">
+    <img src="/assets/img/pieces/Chess_bdt60.png">
+  </div>
 </div>

@@ -40,6 +40,6 @@ export class BoardService {
 
           return x;
         })
-      )
+      );
   }
 }
