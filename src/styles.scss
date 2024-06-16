@@ -1,10 +1,5 @@
-:root {
-  --main-color: #A95EB9;
-  --secondary-color: #680BAB;
-  --main-accent: #D30068;
-
-  --main-text: #f1f1f1;
-}
+@import "primeng";
+@import "variables";
 
 ::selection {
   color: white;
@@ -76,6 +71,12 @@ img {
 
 section, header, footer {
   padding: 0 15px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-03);
 }
 
 @media (min-width: 575.98px){

@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  height: var(--header-height);
+
+  &__side {
+    display: flex;
+    gap: var(--spacing-04);
+    align-items: center;
+  }
+}
