@@ -65,12 +65,13 @@ export class SandboxPageComponent {
   drop(coordinate: number) {
     console.log('drop', coordinate);
     if (this.draggedPiece) {
-
+      this.board[this.draggedPiece.coordinate].piece = undefined;
+      this.board[coordinate].piece = this.draggedPiece.piece;
     }
   }
 
   dragEnd() {
     console.log('dragEnd');
-    // this.draggedPiece = undefined;
+    this.draggedPiece = undefined;
   }
 }

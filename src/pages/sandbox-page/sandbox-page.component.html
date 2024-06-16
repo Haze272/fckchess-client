@@ -6,15 +6,24 @@
       @for (square of board; track square.x) {
         <div
           class="square"
-          pDraggable
-          (onDragStart)="square.piece ? dragStart(square.piece, square.x) : ''"
-          (onDragEnd)="square.piece ? dragEnd()  : ''"
+
 
           pDroppable
           (onDrop)="drop(square.x)"
         >
           @if (square.piece) {
-            <img src="/assets/img/pieces/Chess_bdt60.png">
+            <div
+              class="piece"
+              pDraggable
+              (onDragStart)="square.piece ? dragStart(square.piece, square.x) : ''"
+              (onDragEnd)="square.piece ? dragEnd()  : ''"
+            ></div>
+<!--            <img-->
+<!--              src="/assets/img/pieces/Chess_bdt60.png"-->
+<!--              pDraggable-->
+<!--              (onDragStart)="square.piece ? dragStart(square.piece, square.x) : ''"-->
+<!--              (onDragEnd)="square.piece ? dragEnd()  : ''"-->
+<!--            >-->
           }
 
         </div>
