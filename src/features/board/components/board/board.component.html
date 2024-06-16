@@ -6,6 +6,7 @@
       [piece]="square.piece"
       [selected]="isSelected(x, y)"
       (onSelected)="selectItem(x, y)"
+      (onMoved)="onMoved($event, x, y)"
       style="width: 100%"
     ></app-square>
   </div>

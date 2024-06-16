@@ -3,7 +3,7 @@
     [
       {
         "color": "b",
-        "piece": "rook"
+        "piece": ""
       },
       {
         "color": "w",
@@ -11,7 +11,7 @@
       },
       {
         "color": "b",
-        "piece": "rook"
+        "piece": ""
       },
       {
         "color": "w",
@@ -19,7 +19,7 @@
       },
       {
         "color": "b",
-        "piece": "rook"
+        "piece": ""
       },
       {
         "color": "w",
@@ -27,7 +27,7 @@
       },
       {
         "color": "b",
-        "piece": "rook"
+        "piece": ""
       },
       {
         "color": "w",
@@ -41,7 +41,7 @@
       },
       {
         "color": "b",
-        "piece": "rook"
+        "piece": ""
       },
       {
         "color": "w",
@@ -49,7 +49,7 @@
       },
       {
         "color": "b",
-        "piece": "rook"
+        "piece": ""
       },
       {
         "color": "w",
@@ -57,7 +57,7 @@
       },
       {
         "color": "b",
-        "piece": "rook"
+        "piece": ""
       },
       {
         "color": "w",
@@ -65,59 +65,13 @@
       },
       {
         "color": "b",
-        "piece": "rook"
-      }
-    ],
-    [
-      {
-        "color": "b",
-        "piece": "rook"
-      },
-      {
-        "color": "w",
-        "piece": ""
-      },
-      {
-        "color": "b",
-        "piece": "rook"
-      },
-      {
-        "color": "w",
-        "piece": ""
-      },
-      {
-        "color": "b",
-        "piece": "rook"
-      },
-      {
-        "color": "w",
-        "piece": ""
-      },
-      {
-        "color": "b",
-        "piece": "rook"
-      },
-      {
-        "color": "w",
         "piece": ""
       }
     ],
     [
       {
-        "color": "w",
-        "piece": ""
-      },
-      {
         "color": "b",
-        "piece": "rook"
-      },
-      {
-        "color": "w",
         "piece": ""
-      },
-      {
-        "color": "b",
-        "piece": "rook"
       },
       {
         "color": "w",
@@ -125,7 +79,7 @@
       },
       {
         "color": "b",
-        "piece": "rook"
+        "piece": ""
       },
       {
         "color": "w",
@@ -133,13 +87,7 @@
       },
       {
         "color": "b",
-        "piece": "rook"
-      }
-    ],
-    [
-      {
-        "color": "b",
-        "piece": "rook"
+        "piece": ""
       },
       {
         "color": "w",
@@ -147,23 +95,7 @@
       },
       {
         "color": "b",
-        "piece": "rook"
-      },
-      {
-        "color": "w",
         "piece": ""
-      },
-      {
-        "color": "b",
-        "piece": "rook"
-      },
-      {
-        "color": "w",
-        "piece": ""
-      },
-      {
-        "color": "b",
-        "piece": "rook"
       },
       {
         "color": "w",
@@ -177,7 +109,7 @@
       },
       {
         "color": "b",
-        "piece": "rook"
+        "piece": ""
       },
       {
         "color": "w",
@@ -185,7 +117,7 @@
       },
       {
         "color": "b",
-        "piece": "rook"
+        "piece": ""
       },
       {
         "color": "w",
@@ -193,7 +125,7 @@
       },
       {
         "color": "b",
-        "piece": "rook"
+        "piece": ""
       },
       {
         "color": "w",
@@ -201,59 +133,13 @@
       },
       {
         "color": "b",
-        "piece": "rook"
-      }
-    ],
-    [
-      {
-        "color": "b",
-        "piece": "rook"
-      },
-      {
-        "color": "w",
-        "piece": ""
-      },
-      {
-        "color": "b",
-        "piece": "rook"
-      },
-      {
-        "color": "w",
-        "piece": ""
-      },
-      {
-        "color": "b",
-        "piece": "rook"
-      },
-      {
-        "color": "w",
-        "piece": ""
-      },
-      {
-        "color": "b",
-        "piece": "rook"
-      },
-      {
-        "color": "w",
         "piece": ""
       }
     ],
     [
       {
-        "color": "w",
-        "piece": ""
-      },
-      {
         "color": "b",
-        "piece": "rook"
-      },
-      {
-        "color": "w",
         "piece": ""
-      },
-      {
-        "color": "b",
-        "piece": "rook"
       },
       {
         "color": "w",
@@ -261,7 +147,7 @@
       },
       {
         "color": "b",
-        "piece": "rook"
+        "piece": ""
       },
       {
         "color": "w",
@@ -269,7 +155,121 @@
       },
       {
         "color": "b",
-        "piece": "rook"
+        "piece": ""
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": ""
+      },
+      {
+        "color": "w",
+        "piece": ""
+      }
+    ],
+    [
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": ""
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": ""
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": ""
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": ""
+      }
+    ],
+    [
+      {
+        "color": "b",
+        "piece": ""
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": ""
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": ""
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": ""
+      },
+      {
+        "color": "w",
+        "piece": ""
+      }
+    ],
+    [
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": ""
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": ""
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": ""
+      },
+      {
+        "color": "w",
+        "piece": ""
+      },
+      {
+        "color": "b",
+        "piece": ""
       }
     ]
   ]

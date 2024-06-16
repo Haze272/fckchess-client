@@ -3,7 +3,28 @@
   [style]="{backgroundColor: color}"
   (click)="select()"
 >
-  <div class="square__state" [style]="{backgroundColor: getStateColor()}">
-    <img src="/assets/img/pieces/Chess_bdt60.png">
+  <div class="_info">
+    <span>piece: {{ piece ? piece.name : 'N/A' }}</span>
+    <span>code: {{ piece ? piece.code : 'N/A' }}</span>
+  </div>
+  <div
+    class="square__state"
+    [style]="{backgroundColor: getStateColor()}"
+    pDroppable
+    (onDrop)="drop()"
+  >
+    @if (piece) {
+        <img
+          [src]="piece.imgSrc"
+
+          pDraggable
+          (onDragStart)="dragStart(piece)"
+          (onDragEnd)="dragEnd()"
+
+          alt=""
+          class="piece"
+        >
+    }
+<!--    <img src="/assets/img/pieces/Chess_bdt60.png">-->
   </div>
 </div>

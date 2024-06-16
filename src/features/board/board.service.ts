@@ -1,16 +1,19 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from "@angular/common/http";
 import {BoardSchemaModel} from "./model/board-schema.model";
-import {map, Observable} from "rxjs";
+import {BehaviorSubject, map, Observable, ReplaySubject, Subject} from "rxjs";
 
 @Injectable({
   providedIn: 'root'
 })
 export class BoardService {
+  currentSchema$: ReplaySubject<BoardSchemaModel> = new ReplaySubject<BoardSchemaModel>();
 
-  constructor(private httpClient: HttpClient) {}
+  constructor(
+    private httpClient: HttpClient,
+  ) {}
 
-  getSchema(): Observable<BoardSchemaModel> {
+  getClassicSchema(): Observable<BoardSchemaModel> {
     const schemaUrl: string = './assets/classicChessboard.json';
     // const schemaUrl: string = './assets/fourPlayersChessboard.json';
 

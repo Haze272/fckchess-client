@@ -1,0 +1,33 @@
+<section>
+  <h1>Песочница</h1>
+
+  <div class="subject">
+    <div class="board">
+      @for (square of board; track square.x) {
+        <div
+          class="square"
+          pDraggable
+          (onDragStart)="square.piece ? dragStart(square.piece, square.x) : ''"
+          (onDragEnd)="square.piece ? dragEnd()  : ''"
+
+          pDroppable
+          (onDrop)="drop(square.x)"
+        >
+          @if (square.piece) {
+            <img src="/assets/img/pieces/Chess_bdt60.png">
+          }
+
+        </div>
+      }
+    </div>
+  </div>
+
+  <div
+    class="aboba"
+    pDroppable
+    (onDrop)="drop(1)"
+  >
+sss
+  </div>
+
+</section>

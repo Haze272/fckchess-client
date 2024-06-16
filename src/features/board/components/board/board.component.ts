@@ -5,6 +5,8 @@ import {BoardService} from "../../board.service";
 import {Observable, Subject} from "rxjs";
 import {SquareComponent} from "../square/square.component";
 import {Piece} from "../../../../entitites/piece.model";
+import {Move} from "../../model/move.model";
+import {GameService} from "../../../../pages/game/game.service";
 
 @Component({
   selector: 'app-board',
@@ -15,14 +17,19 @@ import {Piece} from "../../../../entitites/piece.model";
 })
 export class BoardComponent implements OnInit{
   //@Input() schema: BoardSchemaModel | undefined;
-  schema$: Observable<BoardSchemaModel> | undefined;
   selectedItem: { x: number; y: number } | undefined;
 
-  constructor(private boardService: BoardService) {
+  constructor(
+    private readonly boardService: BoardService,
+    private readonly gameService: GameService,
+  ) {
+  }
+
+  get schema$() {
+    return this.boardService.currentSchema$;
   }
 
   ngOnInit() {
-    this.schema$ = this.boardService.getSchema();
   }
 
   selectItem(x: number, y: number) {
@@ -39,5 +46,10 @@ export class BoardComponent implements OnInit{
     } else {
       return false;
     }
+  }
+
+  onMoved($event: Move, x: number, y: number) {
+    console.log('move:', $event);
+    console.log('coordinate from:', x, y);
   }
 }

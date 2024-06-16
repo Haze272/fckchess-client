@@ -1,0 +1,35 @@
+.subject {
+  display: flex;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+
+  .square {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:nth-child(odd) {
+      background-color: #fff;
+    }
+
+    &:nth-child(even) {
+      background-color: #1b815e;
+    }
+
+    img {
+      background-color: #9e3a3a;
+    }
+  }
+}
+
+.aboba {
+  width: 200px;
+  height: 200px;
+  background-color: powderblue;
+}

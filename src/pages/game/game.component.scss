@@ -2,4 +2,16 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
+
+  &__container {
+    display: flex;
+
+    & > :first-child {
+      flex: 1 1 auto
+    }
+  }
+
+  &__card {
+    flex: 0 0 auto;
+  }
 }
