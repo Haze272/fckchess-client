@@ -90,10 +90,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "fckchess-client:build:production"
+              "buildTarget": "fckchess-client:build:production"
             },
             "development": {
-              "browserTarget": "fckchess-client:build:development"
+              "buildTarget": "fckchess-client:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -101,7 +101,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "fckchess-client:build"
+            "buildTarget": "fckchess-client:build"
           }
         },
         "test": {
